@@ -16,7 +16,7 @@ class CathayLoginPage(Page):
     def login(self):
         """登入頁"""
         self.implicitly_wait()
-        # 設置瀏覽器窗口大小（宽度 x 高度）
+        # 設置瀏覽器窗口大小:（宽度 x 高度）
         self.set_window_size(430, 932)  # 這裡設置為手機畫面
         self.wait()
         self.save_screen_shot()
