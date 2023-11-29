@@ -1,5 +1,3 @@
 # Test
-自动化测试架构，python、Selenium、unittest
-
-
-帮助文档参考：https://blog.csdn.net/luanpeng825485697/article/details/79457867
+測試案例路徑：Cathay/Test_framework/test/case/test_cathay.py
+測試頁：Cathay/Test_framework/test/page/cathay_login_page.py
