@@ -1,6 +1,7 @@
 URL: https://milelens.com/account/signin  # 测试网址
 staging_URL: https://milelens.staging.ainotam.com/account/signin
 api_url: https://milelens.com/
+cathay: https://www.cathaybk.com.tw/cathaybk/
 images:
  - images/0.jpg
  - images/1.jpg

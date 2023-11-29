@@ -685,8 +685,8 @@ class HTMLTestRunner(Template_mixin):
             report = report,
             ending = ending,
         )
-        self.stream.write(output.encode('utf8'))
-        # self.stream.write(output)
+        # self.stream.write(output.encode('utf-8'))
+        self.stream.write(output)
 
 
     def _generate_stylesheet(self):

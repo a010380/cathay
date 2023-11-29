@@ -145,3 +145,8 @@ class Page(Browser):
     # 使用 ActionChains 模擬 Command + W 鍵盤快捷鍵
     def close_tab(self):
         ActionChains(self.driver).key_down(Keys.COMMAND).send_keys('w').key_up(Keys.COMMAND).perform()
+    
+    # 改變瀏覽器窗口大小
+    def set_window_size(self, param1, param2):
+        self.driver.set_window_size(param1, param2)
+        
